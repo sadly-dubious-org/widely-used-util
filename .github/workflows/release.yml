@@ -8,7 +8,7 @@ jobs:
     uses: guardian/gha-scala-library-release-workflow/.github/workflows/reusable-release.yml@attest
     permissions: { contents: write, pull-requests: write, id-token: write, attestations: write }
     with:
-      GITHUB_APP_ID: 1072369
+      GITHUB_APP_ID: 1072408
       SONATYPE_PROFILE_NAME: 'com.madgag'
       SONATYPE_CREDENTIAL_HOST: 's01.oss.sonatype.org'
     secrets:
